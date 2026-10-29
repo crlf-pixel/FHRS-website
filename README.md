@@ -13,7 +13,8 @@ Static, responsive website for Faust HR Solutions, hosted on GitHub Pages. No bu
 | `index.html` | Site text, sections, and links |
 | `styles.css` | Colors, fonts, and layout |
 | `script.js` | Mobile menu, footer year, header shadow, scroll animations, and contact form |
-| `assets/fhrs-logo.png` | Logo (header and footer) |
+| `assets/fhrs-logo.png` | Logo (header) |
+| `assets/fhrs-logo-white.png` | White logo (footer) |
 | `assets/catrina-faust.jpg` | Photo in the About section |
 | `CNAME` | Custom domain setting created by GitHub. **Do not delete.** |
 
