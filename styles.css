@@ -18,7 +18,7 @@
 .contact-direct>span{font-size:11px;letter-spacing:.2em;font-weight:700;color:var(--sage-text);margin-bottom:4px}
 .contact-direct a{color:var(--navy);text-decoration:none;font-weight:600;overflow-wrap:anywhere}.contact-direct a:hover{color:var(--sage)}
 .contact-direct p{font-size:13px;color:var(--muted);margin:8px 0 0}
-.contact-form{background:#fff;border:1px solid #dfe3db;box-shadow:22px 22px 0 var(--oat);margin:0 22px 22px 0;padding:32px;display:flex;flex-direction:column;gap:16px}
+.contact-form{background:#fff;border:1px solid #dcd6cc;box-shadow:22px 22px 0 var(--navy);margin:0 22px 22px 0;padding:32px;display:flex;flex-direction:column;gap:16px}
 .form-label{font-size:11px;letter-spacing:.2em;font-weight:700;color:var(--sage-text)}
 .field-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .field{display:flex;flex-direction:column;gap:6px;font-size:13px;font-weight:600;color:var(--ink)}
@@ -46,7 +46,7 @@ button,a{-webkit-tap-highlight-color:transparent}
 .dot{display:none}
 .bi-sep{width:6px;height:6px;color:var(--sage);margin-right:10px;vertical-align:2px}
 .art-border{position:relative}
-.bi-hero{position:absolute;right:34px;bottom:40px;width:64px;height:64px;color:#b9c4b6}
+
 .has-mark{position:relative;overflow:hidden}
 .has-mark>.wrap{position:relative;z-index:1}
 .bi-water{position:absolute;pointer-events:none;color:var(--sage);opacity:.32}
@@ -56,8 +56,8 @@ button,a{-webkit-tap-highlight-color:transparent}
 .about-photo figcaption strong{font-family:'Playfair Display',Georgia,serif;font-weight:600;font-size:20px;color:var(--navy)}
 .about-photo figcaption span{display:block;padding:0;margin-top:2px;font-size:12px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--sage-text)}
 @media(max-width:800px){.bi-water{display:none}}
-@media(max-width:530px){.bi-hero{width:44px;height:44px;right:22px;bottom:30px}}
-@media(max-width:530px){.contact-form{box-shadow:14px 14px 0 var(--oat);margin:0 14px 14px 0}}
+@media(max-width:530px){}
+@media(max-width:530px){.contact-form{box-shadow:14px 14px 0 var(--navy);margin:0 14px 14px 0}}
 .li-logo{width:15px;height:15px;margin-right:8px;vertical-align:-2px}.footer-li{display:inline-flex;align-items:center}
 
 /* Plus grids (from her icon set) */
@@ -69,10 +69,18 @@ button,a{-webkit-tap-highlight-color:transparent}
 /* Feature diamond for The FHRS Difference */
 .kicker{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
 .bi-feature{width:30px;height:30px;color:var(--sage);overflow:visible}.bi-feature path{stroke-width:5}
-@media(max-width:800px){.kicker{flex-direction:row;align-items:center;gap:12px}.bi-feature{width:18px;height:18px}.pg-hero{right:-10px;top:-50px}.pg-form{right:-6px;top:-44px}}
+@media(max-width:800px){.kicker{gap:10px;margin-bottom:8px}.bi-feature{width:18px;height:18px}.pg-hero{right:-10px;top:-50px}.pg-form{right:-6px;top:-44px}}
 @media(max-width:530px){.plus-grid{transform:scale(.8);transform-origin:top left}.pg-hero,.pg-form{transform-origin:top right}}
 
 .pg-row{position:static;display:block;margin-bottom:26px}
 .pg-diag{right:-22px;top:-92px}
 .about-photo{position:relative}
 @media(max-width:530px){.pg-diag{right:-6px;top:-80px;transform:scale(.8);transform-origin:top right}.pg-row{width:230px;height:auto}}
+.pg-kicker{color:var(--sage);flex:none}
+@media(max-width:800px){.pg-kicker{width:52px;height:auto}}
+
+/* Double-line frame on the form, like the hero panel */
+.contact-form{position:relative;padding:56px 54px}
+.contact-form::before{content:"";position:absolute;inset:22px;border:1px solid #0b263955;pointer-events:none}
+@media(max-width:530px){.contact-form{padding:38px 30px}.contact-form::before{inset:13px}}
+.form-status:empty{display:none}
