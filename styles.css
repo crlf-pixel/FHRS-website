@@ -93,3 +93,9 @@ button,a{-webkit-tap-highlight-color:transparent}
 .band-wide{left:-40px}.band-narrow{display:none}
 @media(max-width:800px){.band-wide{display:none}.band-narrow{display:block;right:-50px;opacity:.09}}
 @media(min-width:801px){.statement-inner{padding-left:min(30%,360px)}}
+
+/* Personal note in Let's Connect */
+.contact-note{display:flex;gap:18px;align-items:center;margin-top:34px;padding:22px 24px;background:var(--cream);border-left:3px solid var(--navy);max-width:460px}
+.contact-note img{width:64px;height:64px;border-radius:50%;object-fit:cover;flex:none}
+.contact-note p{margin:0;font-size:14px;line-height:1.5;color:var(--muted)}
+.contact-note .note-title{font-family:'Playfair Display',Georgia,serif;font-size:19px;color:var(--navy);margin-bottom:4px}
