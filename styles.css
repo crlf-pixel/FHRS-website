@@ -77,7 +77,7 @@ button,a{-webkit-tap-highlight-color:transparent}
 .about-photo{position:relative}
 @media(max-width:530px){.pg-diag{right:-6px;top:-80px;transform:scale(.8);transform-origin:top right}.pg-row{width:230px;height:auto}}
 .pg-kicker{color:var(--sage);flex:none}
-@media(max-width:800px){.pg-kicker{width:52px;height:auto}}
+@media(max-width:800px){.pg-kicker{width:30px;height:auto}}
 
 /* Double-line frame on the form, like the hero panel */
 .contact-form{position:relative;padding:56px 54px}
