@@ -90,5 +90,6 @@ button,a{-webkit-tap-highlight-color:transparent}
 
 /* Diagonal plus band, top to bottom, behind The FHRS Difference */
 .pg-water-stmt{position:absolute;top:0;height:100%;width:auto;color:var(--navy);opacity:.16;pointer-events:none}
-.band-wide{right:-30px}.band-narrow{display:none}
+.band-wide{left:-40px}.band-narrow{display:none}
 @media(max-width:800px){.band-wide{display:none}.band-narrow{display:block;right:-50px;opacity:.09}}
+@media(min-width:801px){.statement-inner{padding-left:min(30%,360px)}}
