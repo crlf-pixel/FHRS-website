@@ -4,6 +4,7 @@ Static, responsive website for Faust HR Solutions, hosted on GitHub Pages. No bu
 
 - **Live site:** https://www.fausthrsolutions.com
 - **Repository:** `crlf-pixel/fhrs-website`
+- **Brand colors:** navy `#0b2639`, blue `#233b5e`, sage `#727e6f`, cream `#f0eee9`, oat `#d4cabe` (from the FHRS logo files).
 - **Publishing:** GitHub Pages deploys from the `main` branch, root folder. Changes pushed to `main` go live automatically within a minute or two.
 
 ## Files
@@ -14,7 +15,9 @@ Static, responsive website for Faust HR Solutions, hosted on GitHub Pages. No bu
 | `styles.css` | Colors, fonts, and layout |
 | `script.js` | Mobile menu, footer year, header shadow, scroll animations, and contact form |
 | `assets/fhrs-logo.png` | Logo (header) |
-| `assets/fhrs-logo-white.png` | White logo (footer) |
+| `assets/fhrs-logo-white.png` | Cream logo (footer) |
+| `assets/favicon-32.png`, `favicon-48.png`, `apple-touch-icon.png` | Browser tab and phone home-screen icons |
+| `assets/fhrs-mark.png` | Round FHRS mark (spare, for social profiles or other uses) |
 | `assets/catrina-faust.jpg` | Photo in the About section |
 | `CNAME` | Custom domain setting created by GitHub. **Do not delete.** |
 
