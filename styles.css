@@ -99,3 +99,12 @@ button,a{-webkit-tap-highlight-color:transparent}
 .contact-note img{width:64px;height:64px;border-radius:50%;object-fit:cover;flex:none}
 .contact-note p{margin:0;font-size:14px;line-height:1.5;color:var(--muted)}
 .contact-note .note-title{font-family:'Playfair Display',Georgia,serif;font-size:19px;color:var(--navy);margin-bottom:4px}
+
+/* Let's Connect layout: intro + details left, form right; on phones the form follows the intro */
+.contact-grid{grid-template-areas:"intro form" "aside form";grid-template-rows:auto 1fr;row-gap:0}
+.contact-intro{grid-area:intro}.form-wrap{grid-area:form;align-self:start}.contact-aside{grid-area:aside}
+.contact-direct{border-top:1px solid #0b263920;padding-top:26px}
+.contact-note{background:none;border-left:0;border-top:1px solid #0b263920;padding:24px 0 0;margin-top:28px;gap:16px}
+.contact-note img{width:56px;height:56px}
+.contact-note .note-title{font-size:17px;margin-bottom:2px}
+@media(max-width:800px){.contact-grid{grid-template-areas:"intro" "form" "aside";row-gap:44px}.contact-direct{margin-top:0}}
